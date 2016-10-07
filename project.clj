@@ -7,13 +7,14 @@
   :min-lein-version "2.6.1"
 
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [org.clojure/clojurescript "1.7.228"]
+                 [org.clojure/clojurescript "1.9.229"]
                  [org.clojure/core.async "0.2.374"
                   :exclusions [org.clojure/tools.reader]]
                  [reagent "0.5.1":exclusions [cljsjs/react]]
                  [cljsjs/react-with-addons "0.13.3-0"]
                  [cljs-react-test "0.1.3-SNAPSHOT"]
                  [prismatic/dommy "1.1.0"]
+                 [com.cemerick/url "0.1.1"]
                  [matchbox "0.0.9"]]
 
   :plugins [[lein-figwheel "0.5.2"]
