@@ -1,8 +1,8 @@
 ## Overview
 
-Mestari ja Kisälli
+STALKER APP
 
-Kausi 01 Dojo Episodi 02
+Show Friends On Map!
 
 ## Setup
 
@@ -34,3 +34,5 @@ get live reloading, nor a REPL.
 To run tests:
 
     lein doo phantom test
+=======
+# stalker
