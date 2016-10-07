@@ -18,7 +18,7 @@
     {:lat 6682804 :lon 383998 :logTime 0 }))
 
 (defn add-location [user-id timestamp lat lon]
-  (m.conj!
+  (m/conj!
     (m/get-in
       (m/get-in
         (m/get-in
