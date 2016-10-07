@@ -9,13 +9,5 @@
             [cv.input :refer [input]]))
 
 (defn app []
-  [:div
-    [:h1#main-title "Add new allocation"]
-    [:p (dropdown "Select a consultant" "consultants-dropdown" (consultants))]
-    [:p (dropdown "Select a project" "projects-dropdown" (projects))]
-    [:p (input "Allocation percentage"
-               "allocation-percentage"
-               "number")]
-    [:p [:b (counter)]]
-    [:p (button "Kasvata" "inc" increase-count!)]
-    [:p (button "Vähennä" "dec" decrease-count!)]])
+  [:div#main-div
+    [:iframe#oskari-map {:src "http://www.paikkatietoikkuna.fi/published/fi/e8784853-1e4f-4644-9d00-5a3f2943f1e6"}]])
