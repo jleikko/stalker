@@ -14,6 +14,6 @@
 
 (defn send-location [lat lon]
   (ds/add-location "123" (.getTime (js/Date.)) lat lon)
-  (js/setTimeout (send-location lat (+ lon 50)) 500))
+  (js/setTimeout (send-location lat (+ lon 1)) 500))
 
 
