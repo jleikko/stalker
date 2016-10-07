@@ -14,7 +14,8 @@
                  [cljsjs/react-with-addons "0.13.3-0"]
                  [cljs-react-test "0.1.3-SNAPSHOT"]
                  [prismatic/dommy "1.1.0"]
-                 [com.cemerick/url "0.1.1"]]
+                 [com.cemerick/url "0.1.1"]
+                 [matchbox "0.0.9"]]
 
   :plugins [[lein-figwheel "0.5.2"]
             [lein-cljsbuild "1.1.3" :exclusions [[org.clojure/clojure]]]
