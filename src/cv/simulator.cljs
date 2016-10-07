@@ -4,7 +4,9 @@
 
 
 (defn simulator []
-  [:div (button "start" "start-simulator" start-simulator)])
+  [:div
+   (button "start" "start-simulator" start-simulator)
+   (button "clear" "clear-locations" clear-locations)])
 
 
 (defn start-simulator []
