@@ -1,6 +1,6 @@
 (ns cv.map)
 
-(defn get-channel []
+(defn get-channel [element url]
   (.connect js/OskariRPC element url))
 
 (defn add-marker [channel id x y color]
