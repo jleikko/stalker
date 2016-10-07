@@ -8,9 +8,10 @@
 
 
 (defn start-simulator []
-  (js/setTimeout send-location 250))
+  (send-location 6682804 383998))
 
 (defn send-location [lat lon]
-  (send-location lat (+ lon 50)))
+  (ds/add-location "123" (.getTime (js/Date.)) lat lon)
+  (js/setTimeout (send-location lat (+ lon 1)) 500))
 
 

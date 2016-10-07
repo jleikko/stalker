@@ -21,12 +21,12 @@
   (m.conj!
     (m/get-in
       (m/get-in
-        (m/get-in 
-          root 
+        (m/get-in
+          root
           "participants")
         user-id)
      "locations")
-    {:timestamp : timestamp :lat lat :lon lon}))
+    {:logTime timestamp :lat lat :lon lon}))
 
 (defn subscribe-locations [user-id func]
   "call func with newly added locations"
